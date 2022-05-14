@@ -4,28 +4,22 @@
 .container{
     border: 1px solid lightgrey;
     padding: 24px 24px 0 24px;
-    
+    display: flex;
+    justify-content: space-between;
 }
-.row{
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-}
-.title{
-    border: 1px solid grey;
-    width: 100%;
-    height: 24px;
-    margin-bottom: 24px;
-}
+
 .box{
     border: 1px solid grey;
-    width: 30%;
-    height: 100px;
     margin-bottom: 24px;
 }
+.largebox{
+    width: 45%;
+}
 .wrap{
-   
+    width: 45%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+}
+.boxsmall{
+    height: 50px;
 }
